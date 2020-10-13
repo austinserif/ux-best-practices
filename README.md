@@ -42,4 +42,4 @@ The first paragraph text
 4. Landing Pages <a name="components-landingPages"></a>
 
 ## Footnotes <a name="footnotes"></a>
-<b id="f1">1</b> Quote by Lubos Volkov, lead designer at [Toptal](https://www.toptal.com). See the original post on his [instagram page](https://www.instagram.com/p/CB2-T64FuDr/)[↩](#a1)
+<b id="f1">1</b> Quote by Lubos Volkov, lead designer at [Toptal](https://www.toptal.com). See the original post on his [instagram page](https://www.instagram.com/p/CB2-T64FuDr/)  [↩](#a1)
