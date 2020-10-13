@@ -1,14 +1,9 @@
 # UX Design Resources and Best Practices:
 1. [Introduction](#introduction)
-
 2. [Color](#color)
-
     1. [Best Practices](#color-bestPractices)
-
     2. [Resources](#color-resources)
-
     3. [Examples](#color-examples)
-
 3. [Another paragraph](#paragraph2)
 
 ## Introduction <a name="introduction"></a>
