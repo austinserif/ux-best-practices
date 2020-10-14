@@ -30,6 +30,29 @@ The first paragraph text
 ## Typeface <a name="typeface"></a>
 1. Font Types <a name="typeface-fontTypes"></a>
 2. How To Use Them <a name="typeface-howToUseThem"></a>
+3. Font Size
+    There are two types of font-sizes: absolute, and relative. Pixels (px) are absolute units. 16px text wrapped in a paragraph block (`<p style="font-size: 16px">Text here!</p>`) will be the same size on an iPhone as an iMac. However, 4vw text on a 320px wide iPhone screen is (.04 * 320) 12.8px, which is quite a bit smaller than 4vw text on a 1440px wide screen (.04vw * 1440 = 57.6px).
+
+
+
+    Simple Example: 
+    ```css
+    html {
+        font-size: 100%;
+    }
+
+    @media (min-width: 700px) {
+        h1 {
+            font-size: 2rem; /* 2rem is the same as saying two times the default root element font-size, which in most cases is 16px. So we can say with a high degree of confidence that our h1 font-size for screens over 700px (unless there is another media query bound) will be around 32px. */
+        }
+    }
+
+    @media (min-width: 1000px) {
+        h1 {
+            font-size: 1.5rem;
+        }
+    }
+    ```
 
 ## Components <a name="components"></a>
 1. Navigation <a name="components-navigation"></a>
